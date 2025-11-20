@@ -1,0 +1,30 @@
+:root {
+    --accent: #2563eb;
+    --bg: #f8fafc
+}
+
+body {
+    font-family: Inter, system-ui, Arial, sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: #02090f
+}
+
+header {
+    background: rgb(7, 145, 230);
+    padding: 2rem;
+    border-bottom: 1px solid #e6eef8
+}
+
+main {
+    padding: 2rem
+}
+
+button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: .6rem 1rem;
+    border-radius: 6px;
+    cursor: pointer
+}
